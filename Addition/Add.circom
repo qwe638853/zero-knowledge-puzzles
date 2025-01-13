@@ -1,4 +1,3 @@
-pragma circom 2.1.4;
 
 template Add() {
     signal input in[3];
