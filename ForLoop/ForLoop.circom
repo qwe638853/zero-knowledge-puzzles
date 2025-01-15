@@ -7,6 +7,14 @@ pragma circom 2.1.4;
 template ForLoop() {
 
 // Your Code here..
+signal input a[2];
+signal output c;
+
+var tmp = 0;
+for(var i=0;i<4;i++){
+    tmp += a[0] + a[1];
+}
+c <== tmp;
 
 }  
 
